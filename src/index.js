@@ -1,5 +1,5 @@
-
 import { combineReducers } from 'redux'
+
 export function combineReducers(reducers){
   return (state = {}, action) => {
     return Object.keys(reducers).reduce(
