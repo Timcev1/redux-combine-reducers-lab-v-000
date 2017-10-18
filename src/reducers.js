@@ -22,6 +22,3 @@ export function recommendedBooks(state = [], action){
     return state
   }
 }
-import { combineReducers } from 'redux'
-
-const rootReducer = combineReducers({books, recommendedBooks})
