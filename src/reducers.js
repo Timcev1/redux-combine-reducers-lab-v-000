@@ -25,4 +25,3 @@ export function recommendedBooks(state = [], action){
 import { combineReducers } from 'redux'
 
 const rootReducer = combineReducers({books, recommendedBooks})
- 
